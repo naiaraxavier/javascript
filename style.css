@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  background-color: #282828;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+main {
+  margin: 1rem;
+  padding: 1rem;
+  width: 60%;
+}
+
+.helloWorld,
+.byId,
+.byName,
+.byClass {
+  background-color: #dccee9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.helloWorld:hover {
+  background-color: #d0c2dd;
+  transition: 0.5s;
+}
+
+.helloWorld button {
+  align-self: center;
+  background-color: #8308f5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #808080;
+  color: #fff;
+  height: 40px;
+  width: 200px;
+}
+
+.helloWorld button:hover {
+  height: 41px;
+  width: 201px;
+}
+
+.sum {
+  background-color: #dccee9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sum:hover,
+.byId:hover,
+.byClass:hover,
+.byName:hover {
+  background-color: #d0c2dd;
+  transition: 0.5s;
+}
+
+#number1,
+#number2 {
+  border-radius: 10px;
+  width: 80px;
+}
+
+.sum div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sum button {
+  background-color: #8308f5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #808080;
+  color: #fff;
+  height: 40px;
+  width: 200px;
+}
+
+.sum label {
+  margin-right: 0.5rem;
+}
+
+#mensage {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+#div {
+  align-self: center;
+  background-color: #fff;
+  height: 90px;
+  width: 90px;
+}
+
+.byId button,
+.byName button,
+.byClass button {
+  align-self: center;
+  background-color: #8308f5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #808080;
+  color: #fff;
+  height: 40px;
+  width: 200px;
+}
+
+.byName div,
+.byClass div {
+  align-self: center;
+  background-color: #fff;
+  height: 90px;
+  width: 90px;
+}
